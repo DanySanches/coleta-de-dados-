@@ -58,21 +58,22 @@ Organize os arquivos CSV em uma pasta chamada `BASE_TP` no diretório do projeto
    ```bash
    python dados.py
    ```
-3. ###Estrutura das Tabelas
+3. ### Estrutura das Tabelas
 
     As tabelas do banco foram configuradas com as seguintes chaves e relações:
 
-  -**Animal_Estimacao:** cod_animal_estimacao como chave primária.
-  -**Clima:** cod_clima como chave primária.
-  -**Bebida:** cod_bebida como chave primária.
-  -**Hobbies:** cod_hobbies como chave primária.
-  -**Pessoa:** cod_pessoa como chave primária, com informações adicionais de gênero e data de nascimento.
-  -**Pesquisa:** Contém todas as chaves estrangeiras para relacionar com as demais tabelas.
+  - **Animal_Estimacao:** cod_animal_estimacao como chave primária.
+  - **Clima:** cod_clima como chave primária.
+  - **Bebida:** cod_bebida como chave primária.
+  - **Hobbies:** cod_hobbies como chave primária.
+  - **Pessoa:** cod_pessoa como chave primária, com informações adicionais de gênero e data de nascimento.
+  - **Pesquisa:** Contém todas as chaves estrangeiras para relacionar com as demais tabelas.
   
-  ###Observações
+  ### Observações
   
-  -**Banco de Dados:** Verifique a conexão ao banco de dados e ajuste as configurações de host, user, password e database no código, se necessário.
-  -**Encoding:** Os arquivos CSV são lidos com diferentes encodings (utf-8 e ISO-8859-1) para evitar erros de leitura.
+  - **Banco de Dados:** Verifique a conexão ao banco de dados e ajuste as configurações de host, user, password e database no código, se necessário.
+  - **Encoding:** Os arquivos CSV são lidos com diferentes encodings (utf-8 e ISO-8859-1) para evitar erros de leitura.
   
-  ###Saída
-  Ao final, um arquivo consolidado joined_data.csv será salvo na pasta BASE_TP, contendo todos os dados combinados. Além disso, os dados estarão carregados no banco de dados colab.
+  ### Saída
+  Ao final, um arquivo consolidado joined_data.csv será salvo na pasta BASE_TP, contendo todos os dados combinados. Além disso, os dados estarão 
+  carregados no banco de dados colab.
