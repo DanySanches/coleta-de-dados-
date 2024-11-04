@@ -1,9 +1,3 @@
-'''Nome: Daniel Viegas Cardamoni
-
-Nome: Danielle de Carvalho Sanches
-
-Nome:Jennifer Cristine Farias Alves'''
-
 #!pip install mysql-connector-python
 import pandas as pd
 import os
@@ -38,7 +32,7 @@ print(f"Arquivos baixados em {saida}.")
 db = mysql.connector.connect(
     host="localhost", 
     user="root",
-    password="nina",
+    password=" ",
     database="colab",
     port=3306 
 )
